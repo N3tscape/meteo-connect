@@ -11,9 +11,12 @@
     @apply overflow-y-auto h-72 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white;
   }
   .forecastDay {
-    @apply flex flex-row items-center justify-around m-4 sm:text-3xl xs:text-lg;
+    @apply flex items-center justify-between m-4 p-4 rounded-lg hover:bg-[rgba(255,255,255,0.1)] sm:text-3xl xs:text-lg;
   }
   .forecastDayIcon {
     @apply sm:text-6xl xs:text-4xl;
+  }
+  .forecastDayTemp {
+    @apply sm:text-2xl xs:text-lg;
   }
 }
