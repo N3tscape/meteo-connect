@@ -2,7 +2,8 @@
 
 @layer base {
   html {
-    @apply text-neutral-800;
+    @apply bg-gradient-to-t from-blue-300 to-blue-400 text-neutral-800
+    flex items-center justify-center h-screen;
   }
   html.dark {
     @apply text-neutral-50;
