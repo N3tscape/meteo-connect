@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  .forecastContainer {
+    @apply w-10/12 text-white;
+  }
+  .forecastContainer > h3 {
+    @apply mx-auto font-bold sm:text-3xl xs:text-lg;
+  }
+  .forecast {
+    @apply overflow-y-auto h-72 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white;
+  }
+  .forecastDay {
+    @apply flex items-center justify-between m-4 p-4 rounded-lg hover:bg-[rgba(255,255,255,0.1)] sm:text-3xl xs:text-lg;
+  }
+  .forecastDayIcon {
+    @apply sm:text-6xl xs:text-4xl;
+  }
+  .forecastDayTemp {
+    @apply sm:text-2xl xs:text-lg;
+  }
+}
