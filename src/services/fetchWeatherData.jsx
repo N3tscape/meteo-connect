@@ -5,7 +5,7 @@ const API_URL = 'https://api.open-meteo.com/v1/forecast?latitude=50.6927049&long
 const fetchWeatherData = async () => {
     try {
         const response = await axios.get(API_URL);
-        return response.data;
+        return (response.data);
     } catch (error) {
         return Promise.reject(error);
     }
