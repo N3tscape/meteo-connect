@@ -1,0 +1,56 @@
+@tailwind base;
+
+@layer base {
+  .test {
+    @apply text-4xl;
+  }
+  .containerCurrentWeather {
+    @apply bg-blue-400 rounded-xl w-[50vh] h-[90vh];
+  }
+  .locationBar {
+    @apply flex m-4 p-4 gap-6;
+  }
+  .locationPin {
+    @apply h-6;
+  }
+  .locationText {
+    @apply text-white;
+  }
+  .weatherImageContainer {
+    @apply flex justify-center items-center;
+  }
+  .weatherImage {
+    @apply h-36 m-1;
+  }
+  .weatherDetailsContainer {
+    @apply w-[50vh] h-[70vh] p-5 mb-20;
+  }
+  .date {
+    @apply text-base text-white;
+  }
+  .temperature {
+    @apply text-white text-7xl mt-4;
+  }
+  .weatherText {
+    @apply text-white mb-2 mt-2 text-xl;
+  }
+  .infoIcon {
+    @apply h-8 mr-4;
+  }
+  .info {
+    @apply flex flex-col justify-center items-center;
+  }
+  .weatherDetails {
+    @apply flex items-center justify-between text-white mt-6 gap-14;
+  }
+  .weatherCol {
+    @apply flex items-center text-left;
+  }
+  .icon {
+    @apply -mt-1;
+  }
+
+  .weatherLabel {
+    @apply text-xs;
+  }
+}
