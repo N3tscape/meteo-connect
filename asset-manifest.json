@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/meteo-connect/static/css/main.a2e2eae1.css",
-    "main.js": "/meteo-connect/static/js/main.e670c138.js",
+    "main.css": "/meteo-connect/static/css/main.111bab86.css",
+    "main.js": "/meteo-connect/static/js/main.15175e0b.js",
     "index.html": "/meteo-connect/index.html",
-    "main.a2e2eae1.css.map": "/meteo-connect/static/css/main.a2e2eae1.css.map",
-    "main.e670c138.js.map": "/meteo-connect/static/js/main.e670c138.js.map"
+    "main.111bab86.css.map": "/meteo-connect/static/css/main.111bab86.css.map",
+    "main.15175e0b.js.map": "/meteo-connect/static/js/main.15175e0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e2eae1.css",
-    "static/js/main.e670c138.js"
+    "static/css/main.111bab86.css",
+    "static/js/main.15175e0b.js"
   ]
 }
