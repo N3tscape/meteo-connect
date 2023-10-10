@@ -20,7 +20,9 @@ const CurrentWeather = () => {
     <div className="weatherDetailsContainer">
       <div className="info">
         <div className="date">Aujourd'hui</div>
-        <WeatherIcon code={weatherData.current_weather.weathercode} />
+        <div className="weatherIcon">
+          <WeatherIcon code={weatherData.current_weather.weathercode} />
+        </div>
         <div className="temperature">
           {weatherData.current_weather.temperature}C°
         </div>

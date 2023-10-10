@@ -7,7 +7,6 @@ function App() {
   const weatherData = useWeatherData();
   return (
     <div className="container">
-      <h1>Météo Connect</h1>
       {weatherData ? (
         <>
           <CurrentWeather />

@@ -19,8 +19,8 @@
   .weatherImageContainer {
     @apply flex justify-center items-center;
   }
-  .weatherImage {
-    @apply h-36 m-1;
+  .weatherIcon {
+    @apply text-9xl;
   }
   .weatherDetailsContainer {
     @apply w-[50vh] h-[70vh] p-5 mb-20;

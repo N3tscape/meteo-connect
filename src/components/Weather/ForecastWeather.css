@@ -2,10 +2,10 @@
 
 @layer base {
   .forecastContainer {
-    @apply w-10/12 text-white;
+    @apply w-10/12 text-white mb-8;
   }
   .forecastContainer > h3 {
-    @apply mx-auto font-bold sm:text-3xl xs:text-lg;
+    @apply mx-auto font-bold sm:text-3xl xs:text-lg mb-4;
   }
   .forecast {
     @apply overflow-y-auto h-72 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white;
